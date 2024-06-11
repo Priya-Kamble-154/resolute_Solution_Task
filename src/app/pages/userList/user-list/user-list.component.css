@@ -1,0 +1,138 @@
+/* Base styles */
+.search-container {
+  margin-bottom: 10px;
+  margin-top: 30px;
+  width: 75%;
+  padding-left: 435px;
+}
+
+.searchSize {
+  margin-right: 30px;
+  width: 80%;
+}
+
+.user-list-container {
+  /* Assuming there might be some styles here */
+}
+
+.table-container {
+  width: 80%;
+  padding-left: 260px;
+}
+
+table {
+  width: 80%;
+  margin-left: 180px;
+}
+
+.add-button {
+  margin-left: 93px;
+  padding: 10px;
+}
+
+.setPagination {
+  padding-right: 490px;
+  margin-right: 300px;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .search-container {
+    padding-left: 300px;
+  }
+
+  .table-container {
+    padding-left: 150px;
+  }
+
+  table {
+    margin-left: 100px;
+  }
+
+  .setPagination {
+    padding-right: 300px;
+    margin-right: 150px;
+  }
+}
+
+@media (max-width: 992px) {
+  .search-container {
+    padding-left: 200px;
+  }
+
+  .table-container {
+    padding-left: 100px;
+  }
+
+  table {
+    margin-left: 50px;
+  }
+
+  .setPagination {
+    padding-right: 200px;
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .search-container {
+    width: 90%;
+    padding-left: 100px;
+  }
+
+  .searchSize {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .table-container {
+    width: 100%;
+    padding-left: 50px;
+  }
+
+  table {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .add-button {
+    margin-left: 20px;
+  }
+
+  .setPagination {
+    padding-right: 100px;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .search-container {
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  .searchSize {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .table-container {
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  table {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .add-button {
+    margin-left: 10px;
+    padding: 8px;
+  }
+
+  .setPagination {
+    padding-right: 20px;
+    margin-right: 10px;
+  }
+}
