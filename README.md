@@ -1,6 +1,8 @@
 # UserManagement
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.13.
+Make sure you have installed AngularMaterial in your project using ng add @angular/material
+After Cloned this repo you have to install npm using npm install
 
 ## Development server
 
