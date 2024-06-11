@@ -15,18 +15,15 @@ import { UserFormComponent } from '../../userform/user-form/user-form.component'
   styleUrls: ['./user-list.component.css']
 })
 export class UserListComponent implements OnInit {
+
   displayedColumns: string[] = ['name', 'email', 'role', 'actions'];
   dataSource: MatTableDataSource<User> = new MatTableDataSource<User>();
-
-  
-  
-  
+ 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
 
   constructor(private userService: UserService, private dialog: MatDialog) { }
   
-
   ngOnInit(): void {
     this.dataSource = new MatTableDataSource(this.userService.getUsers());
     this.dataSource.sort = this.sort;
@@ -44,9 +41,7 @@ export class UserListComponent implements OnInit {
       this.dataSource.paginator.firstPage();
     }
   }
-  
-  
-
+ 
   addUser(): void {
     const dialogRef = this.dialog.open(UserFormComponent, {
       width: '400px',
